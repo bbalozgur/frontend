@@ -6,16 +6,16 @@ export default function List(props) {
 			data.map((item) => {
 				if('children' in item) {
 					return (
-						<li>
+						<li className="">
 							<a href=""> {item.Name}</a>
-							<ul>
+							<ul className="">
 								{recursive(item.children)}
 							</ul>
 						</li>
 					)	
 				} else {
 					return (
-						<li>
+						<li className="">
 							<span className="spanxxx"> {item.ID}</span><a href="">{item.Name} </a>
 						</li>
 					)

@@ -4,14 +4,56 @@ body {
   font-family: sans-serif;
 }
 
-span {
-	padding:0 50px;
+.page-container {
+	width:1200px;
+	margin:0 auto;
 }
 
+ ul {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+	text-decoration:none; 
+}
+
+
 span {
-	padding:0 50px;
-}span {
-	padding:0 50px;
-}span {
-	padding:0 50px;
+	text-decoration:none; 
+}
+
+
+ul > li {
+	list-style: none;
+}
+
+
+ul > li > span {
+	font-size:15px;
+	color:#000000;
+	font-weight:700;
+}
+
+ul > li a {
+	color:blue;
+	font-size:15px;
+	font-weight:700;
+}
+
+
+ul > li > ul {
+	margin-left:25px;
+}
+
+ul > li > ul li a{
+	color:red;
+	font-size:15px;
+	font-weight:700;
+}
+
+ul > li > ul li span{
+	color:orange;
+	font-size:15px;
+	font-weight:700;
 }
